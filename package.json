@@ -18,5 +18,9 @@
   },
   "bin": {
     "adb-wifi": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saleehk/adb-wifi"
   }
 }
