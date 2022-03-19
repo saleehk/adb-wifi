@@ -1,0 +1,101 @@
+[
+    {
+      "address": "192.168.1.22",
+      "fqdn": "adb-ZY322MP4P2-PeS4ht._adb-tls-pairing._tcp.local",
+      "modelName": null,
+      "familyName": null,
+      "service": {
+        "port": 37716,
+        "protocol": "tcp",
+        "type": "adb-tls-pairing"
+      },
+      "packet": {
+        "header": {
+          "id": 0,
+          "qr": 1,
+          "op": 0,
+          "aa": 1,
+          "tc": 0,
+          "rd": 0,
+          "ra": 0,
+          "z": 0,
+          "ad": 0,
+          "cd": 0,
+          "rc": 0,
+          "questions": 0,
+          "answers": 1,
+          "authorities": 0,
+          "additionals": 6
+        },
+        "questions": [],
+        "answers": [
+          {
+            "name": "_adb-tls-pairing._tcp.local",
+            "type": "PTR",
+            "class": "IN",
+            "flash": false,
+            "ttl": 4500,
+            "rdata": "adb-ZY322MP4P2-PeS4ht._adb-tls-pairing._tcp.local"
+          }
+        ],
+        "authorities": [],
+        "additionals": [
+          {
+            "name": "Android-3.local",
+            "type": "A",
+            "class": "IN",
+            "flash": true,
+            "ttl": 120,
+            "rdata": "192.168.1.22"
+          },
+          {
+            "name": "Android-3.local",
+            "type": "AAAA",
+            "class": "IN",
+            "flash": true,
+            "ttl": 120,
+            "rdata": "fe80:0000:0000:0000:d010:c6ff:fed3:0abd"
+          },
+          {
+            "name": "adb-ZY322MP4P2-PeS4ht._adb-tls-pairing._tcp.local",
+            "type": "TXT",
+            "class": "IN",
+            "flash": true,
+            "ttl": 4500,
+            "rdata": {},
+            "rdata_buffer": {}
+          },
+          {
+            "name": "adb-ZY322MP4P2-PeS4ht._adb-tls-pairing._tcp.local",
+            "type": "SRV",
+            "class": "IN",
+            "flash": true,
+            "ttl": 120,
+            "rdata": {
+              "priority": 0,
+              "weight": 0,
+              "port": 37716,
+              "target": "Android-3.local"
+            }
+          },
+          {
+            "name": "Android-3.local",
+            "type": "NSEC",
+            "class": "IN",
+            "flash": true,
+            "ttl": 120,
+            "rdata": "c0 4b 00 04 40 00 00 08"
+          },
+          {
+            "name": "adb-ZY322MP4P2-PeS4ht._adb-tls-pairing._tcp.local",
+            "type": "NSEC",
+            "class": "IN",
+            "flash": true,
+            "ttl": 4500,
+            "rdata": "c0 33 00 05 00 00 80 00 40"
+          }
+        ],
+        "address": "192.168.1.22"
+      }
+    }
+  ]

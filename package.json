@@ -1,12 +1,21 @@
 {
   "name": "adb-wifi",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^3.3.1",
+    "node-dns-sd": "^0.4.2",
+    "qrcode-terminal": "^0.12.0",
+    "shelljs": "^0.8.5"
+  },
+  "bin":{
+    "adb-wifi":"cli.js"
+  }
 }
